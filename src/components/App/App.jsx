@@ -24,7 +24,7 @@ function App() {
         console.log(images);
       })
       .catch((error) => {
-        console.log('Error occured when receiving a response form the server GET route: ', error);
+        console.log('Error occurred when receiving a response form the server GET route: ', error);
       })
     }
 

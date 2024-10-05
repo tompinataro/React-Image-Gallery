@@ -1,0 +1,93 @@
+body {
+    background-color: #86ABD4
+    ;
+}
+
+.image {
+    background-color: #D9E8F5
+    ;
+    padding: 20px;
+    border: solid #304269
+    ;
+    border-width: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+.description {
+    background-color: #b2b6c1;
+    padding: 20px;
+    border: solid #304269
+    ;
+    border-width: 5px;
+    height: 150px;
+    width: 150px;
+    margin: 0px;
+}
+
+.singleItem {
+    background-color: #8498a8;
+    border: solid #304269;
+    border-width: 2px;
+    border-radius: 20px;
+    margin: 10px;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.imageDescriptionDiv {
+    /* display: flex; */
+    /* align-content: center; */
+}
+
+.galleryListOfItems {
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+    /* align-content: space-around center stretch; */
+    /* gap: 20px 30px; */
+}
+
+h3 {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.imageDescriptionButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #eaa475
+    ;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.imageDescriptionButton:hover {
+    background-color: #cbb7ab
+}
+
+.likeButton {
+    background-color: #eaa475;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.likeButton:hover {
+    background-color: #cbb7ab
+}

@@ -1,10 +1,9 @@
-# My React Art Gallery
+# React Image Gallery
 _Duration: 48 hour sprint_
-![shopping](https://github.com/user-attachments/assets/ed93f0b0-c6a7-4560-b485-a42adc897e24)
 
 ## Description
 
-Created images with descriptions appearing as a reversible card.
+Gallery images with descriptions appearing as a reversible card.
 
 ## Built With
 

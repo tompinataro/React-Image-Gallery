@@ -38,4 +38,5 @@ Steps to get the development environment running.
 ## Acknowledgments
 
 Thank you to [Prime Digital Academy](www.primeacademy.io) 
+
 Color Palette derived from: https://stephcorrigan.com/blue-color-palettes/

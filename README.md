@@ -3,7 +3,7 @@ _Duration: 48 hour sprint_
 
 ## Description
 
-Gallery images with descriptions appearing as a reversible card.
+Gallery images with descriptions appearing as reversible cards.
 
 ## Built With
 
@@ -25,6 +25,7 @@ Required software dependencies:
 ### Installing
 
 Steps to get the development environment running.
+(Prior to Deployment on Heroku...)
 
 1. Clone this repository.
 2. Open and run npm install.

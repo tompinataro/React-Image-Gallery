@@ -1,3 +1,4 @@
-web: node server/server.js
 
-<!-- this line in the Procfile ensures that when your application is deployed, Heroku will start a web server by running the server.js file using Node.js, allowing your React application to handle incoming web traffic. -->
+=======
+web: node server/server.js
+>>>>>>> c8b71631cf38b5facdaa75319e4d69045746812a

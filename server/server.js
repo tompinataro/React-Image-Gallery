@@ -8,10 +8,8 @@ const PORT = process.env.PORT || 5001;
 
 /** ---------- DATABASE CONNECTION ---------- **/
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: {
-    rejectUnauthorized: false, // Required for Neon PostgreSQL
-  },
+  connectionString: process.env.DATABASE_URL, // Ensure Heroku's DATABASE_URL is used
+  ssl: process.env.DATABASE_URL.includes("neon.tech") ? { rejectUnauthorized: false } : false, // Fix SSL issues for Neon PostgreSQL
 });
 
 pool.connect()

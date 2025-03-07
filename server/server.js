@@ -6,15 +6,15 @@ require("dotenv").config();
 
 const PORT = process.env.PORT || 5001;
 
-/** ---------- DATABASE CONNECTION ---------- **/
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL, // Ensure Heroku's DATABASE_URL is used
-  ssl: process.env.DATABASE_URL.includes("neon.tech") ? { rejectUnauthorized: false } : false, // Fix SSL issues for Neon PostgreSQL
-});
+// /** ---------- DATABASE CONNECTION ---------- **/
+// const pool = new Pool({
+//   connectionString: process.env.DATABASE_URL, // Ensure Heroku's DATABASE_URL is used
+//   ssl: process.env.DATABASE_URL.includes("neon.tech") ? { rejectUnauthorized: false } : false, // Fix SSL issues for Neon PostgreSQL
+// });
 
-pool.connect()
-  .then(() => console.log("✅ Connected to Neon PostgreSQL!"))
-  .catch(err => console.error("❌ Database connection error:", err));
+// pool.connect()
+//   .then(() => console.log("✅ Connected to Neon PostgreSQL!"))
+//   .catch(err => console.error("❌ Database connection error:", err));
 
 /** ---------- MIDDLEWARE ---------- **/
 app.use(express.json());
@@ -28,7 +28,7 @@ app.listen(PORT, () => {
   console.log("Listening on port:", PORT);
 });
 
-module.exports = pool; // Ensure the database pool is exported
+// module.exports = pool; // Ensure the database pool is exported
 
 
 

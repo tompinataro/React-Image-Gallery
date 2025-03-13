@@ -17,7 +17,7 @@ VALUES
 ('images/IMG_4222.jpg', 'Contrasting colors', 'Orange-red petals with lighter color on backside'),
 ('images/IMG_4230.jpg', 'Diverse Varieties', 'Two different yellow varieties, with an orange and pink'),
 ('images/IMG_4236.jpg', 'Hot Pink Perfection', 'Gorgeous tiny yellow "disk florets" area flower within a flower!'),
-('images/IMG_4238.jpg', 'Salmon, hot-pink and yellow trio', 'Imperfect florets poking out here and there'),
+('images/IMG_4238.jpg', 'Salmon, hot-pink, yellow trio', 'Imperfect florets poking out here and there'),
 ('images/IMG_4305.jpg', 'Hot-pink Glory', 'Uncut with petals still unfurling'),
 ('images/IMG_4333.jpg', 'Carrot-top', 'Large and bold'),
 ('images/IMG_4362.jpg', 'Incognito', 'Grasshopper hanging out atop a droopy Sunflower'),
@@ -29,3 +29,9 @@ VALUES
 ('images/IMG_4534.jpg', 'Peekaboo', 'Graceful opening'),
 ('images/IMG_4536.jpg', 'Un-scrolling on the stem', 'On its way...'),
 ('images/IMG_4543.jpg', 'Succulent', 'Thick waxy skin over fleshy leaves')
+
+
+-- Unknown glitch: Using the Chrome app on an iPhone, in portrait view, 
+-- lines 16 and 20 render with image and title 
+-- off to the left and description off to the right.
+-- Rotating phone to landscape view corrects this issue.

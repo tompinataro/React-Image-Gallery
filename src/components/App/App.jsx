@@ -35,7 +35,7 @@ function App() {
       <div data-testid="app">
         <header>
           
-          <h1 id="pageTitle">React Gallery</h1>
+          <h1 id="pageTitle">Tom Pinataro's React Gallery</h1>
           <h3 id = "subTitle">Flowers, etc.</h3>
         </header>
         <GalleryList images={images} fetchImages={fetchImages} />

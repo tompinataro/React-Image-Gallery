@@ -29,7 +29,7 @@ VALUES
 ('images/IMG_4534.jpg', 'Peekaboo', 'Graceful opening'),
 ('images/IMG_4536.jpg', 'Un-scrolling on the stem', 'On its way...'),
 ('images/IMG_4543.jpg', 'Succulent', 'Thick waxy skin over fleshy leaves')
-
+-- brew install libpqbrew install libpq
 
 -- Unknown glitch: Using the Chrome app on an iPhone, in portrait view, 
 -- lines 16 and 20 render with image and title 

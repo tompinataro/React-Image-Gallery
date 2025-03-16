@@ -39,7 +39,7 @@ function App() {
           <h3 id = "subTitle">Flowers, etc.</h3>
         </header>
         <GalleryList images={images} fetchImages={fetchImages} />
-        <footer> <h3>You can reach me at: TomPinataro@gmail.com</h3></footer>
+        <footer> <h3>You can reach me at: Tom@Pinataro.com</h3></footer>
       </div>
     );
 }

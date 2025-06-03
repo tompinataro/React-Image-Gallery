@@ -91,3 +91,22 @@ h3 {
 .likeButton:hover {
     background-color: #cbb7ab
 }
+
+/* Responsive Fix for Mobile Portrait */
+@media (max-width: 500px) {
+  .singleItem {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .image, .description {
+    width: 100%;
+    height: auto;
+  }
+
+  .buttons {
+    flex-direction: column;
+    padding: 10px;
+  }
+}

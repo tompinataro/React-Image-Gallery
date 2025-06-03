@@ -3,26 +3,15 @@ body {
     ;
 }
 
-.image {
-    background-color: #D9E8F5
-    ;
+.image, .description {
+    background-color: #D9E8F5;
     padding: 20px;
-    border: solid #304269
-    ;
+    border: solid #304269;
     border-width: 5px;
-    height: 150px;
-    width: 150px;
-}
-
-.description {
-    background-color: #b2b6c1;
-    padding: 20px;
-    border: solid #304269
-    ;
-    border-width: 5px;
-    height: 150px;
-    width: 150px;
-    margin: 0px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    box-sizing: border-box;
 }
 
 .singleItem {

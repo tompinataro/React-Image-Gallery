@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Tom's Flower Garden",
+  "short_name": "Tom's Garden",
+  "description": "Tom Pinataro's original flower photo flashcards",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#86abd4",
+  "theme_color": "#c15004",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

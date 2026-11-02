@@ -1,20 +1,27 @@
 #pageTitle {
-    padding-left: 60px;
-    padding-top: 40px;
-    /* padding-bottom: 40px; */
-    background-color: #c15004;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #aca9a7;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: max(28px, env(safe-area-inset-top)) 24px 12px;
+  background-color: #c15004;
+  margin: 0;
+  color: #fff3e9;
+  font-size: clamp(1.5rem, 6vw, 2.3rem);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 #subTitle {
-    text-align: left;
-    padding-left: 60px;
-    padding-bottom: 40px;
-    background-color: #c7753f;
-    margin-top: 0px;
-    color: #ecdcd1;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding: 12px 24px 24px;
+  background-color: #c7753f;
+  margin-top: 0;
+  color: #ecdcd1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.install-help, .status {
+  margin: 16px auto;
+  width: calc(100% - 32px);
+  max-width: 860px;
+  line-height: 1.6;
+  color: #152a51;
+}
+.install-help { background: #d9e8f5; border-radius: 12px; padding: 16px; }
+.install-help summary { cursor: pointer; font-weight: bold; min-height: 28px; }
+footer { text-align: center; padding: 20px 16px max(20px, env(safe-area-inset-bottom)); color: #152a51; }
+footer a { color: inherit; }

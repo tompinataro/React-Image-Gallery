@@ -3,6 +3,7 @@
 
     export default defineConfig(() => {
         return {
+            base: '/React-Image-Gallery/',
             build: {
                 outDir: 'build',
             },

@@ -21,7 +21,7 @@ test('production worker precaches every photo and serves the app with the origin
       for (const url of urls) {
         const response = await fetch(new URL(url, scope));
         assert.equal(response.status, 200, url);
-        entries.set(new URL(url, scope).href, response);
+        entries.set(new URL(url, scope).href, new Response(await response.arrayBuffer(), { status: response.status, headers: response.headers }));
       }
     },
     async match(request, options) {

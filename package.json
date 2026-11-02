@@ -25,7 +25,8 @@
     "start:test": "export NODE_ENV=test PORT=5002 && npm run build && npm start",
     "cypress:run": "cypress run --config-file cypress.config.js",
     "test": "start-server-and-test start:test http://localhost:5002 cypress:run",
-    "build": "vite build"
+    "build": "vite build && node scripts/build-offline.mjs",
+    "test:static": "npm run build && node --test tests/*.test.mjs"
   },
   "browserslist": {
     "production": [
